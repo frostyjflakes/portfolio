@@ -1,0 +1,49 @@
+html {
+  font-family: Montserrat, sans-serif;
+  background-color: #e8dfd6;
+}
+
+h1 {
+  font-family: "Cherry Swash", cursive;
+  color: #fc2e2a;
+}
+
+a {
+  color: #e8dfd6;
+  text-decoration: none;
+}
+
+.img-flex {
+  max-width: 2500px;
+  min-width: 320px;
+}
+
+.logo a {
+  font-family: "Cherry Swash", cursive;
+  color: #fc2e2a;
+}
+
+.btn {
+  color: #e8dfd6;
+  background-color: #052c35;
+  max-width: 35em;
+  border: 3px solid #0f5f72;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  color: #e8dfd6;
+  background-color: #fc2e2a;
+  max-width: 35em;
+  border: 3px solid #fc2e2a;
+  border-radius: 100px;
+}
+
+footer {
+  color: #e8dfd6;
+  background-color: #052c35;
+}
+
+p {
+  color: #052c35;
+}
