@@ -47,3 +47,33 @@ footer {
 p {
   color: #052c35;
 }
+
+.hover-box-caption {
+  transition: all .1s linear;
+  color: #e8dfd6;
+}
+
+.hover-box:hover .hover-box-caption,
+.hover-box:focus .hover-box-caption {
+  top: 6.5em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hover-box-img {
+  transition: all .1s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  filter: brightness(40%);
+}
+
+.hover-box:focus {
+  z-index: 10;
+}
+
+.video {
+  filter: brightness(40%);
+}
