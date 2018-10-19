@@ -55,10 +55,11 @@ p {
 
 .hover-box:hover .hover-box-caption,
 .hover-box:focus .hover-box-caption {
-  top: 6.5em;
-  bottom: 0;
+  top: 50%;
   left: 0;
-  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  width: 100%;
 }
 
 .hover-box-img {
