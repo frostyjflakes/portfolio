@@ -1,6 +1,6 @@
 html {
   font-family: Montserrat, sans-serif;
-  background-color: #e8dfd6;
+  background-color: white;
 }
 
 h1 {
@@ -8,14 +8,20 @@ h1 {
   color: #fc2e2a;
 }
 
+h2 {
+  font-family: "Cherry Swash", cursive;
+  color: #fc2e2a;
+}
+
 a {
-  color: #e8dfd6;
+  color: white;
   text-decoration: none;
 }
 
 .img-flex {
   max-width: 2500px;
   min-width: 320px;
+  padding: 0;
 }
 
 .logo a {
@@ -24,7 +30,7 @@ a {
 }
 
 .btn {
-  color: #e8dfd6;
+  color: white;
   background-color: #052c35;
   max-width: 35em;
   border: 3px solid #0f5f72;
@@ -32,7 +38,7 @@ a {
 }
 
 .btn:hover {
-  color: #e8dfd6;
+  color: white;
   background-color: #fc2e2a;
   max-width: 35em;
   border: 3px solid #fc2e2a;
@@ -40,7 +46,7 @@ a {
 }
 
 footer {
-  color: #e8dfd6;
+  color: white;
   background-color: #052c35;
 }
 
@@ -50,7 +56,7 @@ p {
 
 .hover-box-caption {
   transition: all .1s linear;
-  color: #e8dfd6;
+  color: white;
 }
 
 .hover-box:hover .hover-box-caption,
@@ -77,4 +83,8 @@ p {
 
 .video {
   filter: brightness(40%);
+}
+
+.box-shadow {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .25);
 }
