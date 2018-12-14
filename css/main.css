@@ -3,6 +3,10 @@ html {
   background-color: white;
 }
 
+.about {
+  background-color: #eeeeee;
+}
+
 h1 {
   font-family: "Cherry Swash", cursive;
   color: #fc2e2a;
@@ -20,8 +24,12 @@ a {
 
 .img-flex {
   max-width: 2500px;
-  min-width: 320px;
+  min-width: 220px;
   padding: 0;
+}
+
+.embed-4by2 {
+  padding-top: 56%;
 }
 
 .logo a {
@@ -45,7 +53,11 @@ a {
   border-radius: 100px;
 }
 
-footer {
+u {
+  color: #fc2e2a;
+}
+
+.footer {
   color: white;
   background-color: #052c35;
 }
@@ -79,10 +91,6 @@ p {
 
 .hover-box:focus {
   z-index: 10;
-}
-
-.video {
-  filter: brightness(40%);
 }
 
 .box-shadow {
