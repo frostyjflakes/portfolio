@@ -3,16 +3,7 @@ html {
   background-color: white;
 }
 
-.about {
-  background-color: #eeeeee;
-}
-
-h1 {
-  font-family: "Cherry Swash", cursive;
-  color: #fc2e2a;
-}
-
-h2 {
+h1, h2 {
   font-family: "Cherry Swash", cursive;
   color: #fc2e2a;
 }
@@ -20,6 +11,11 @@ h2 {
 a {
   color: white;
   text-decoration: none;
+}
+
+.logo a {
+  font-family: "Cherry Swash", cursive;
+  color: #fc2e2a;
 }
 
 .img-flex {
@@ -30,11 +26,6 @@ a {
 
 .embed-4by2 {
   padding-top: 56%;
-}
-
-.logo a {
-  font-family: "Cherry Swash", cursive;
-  color: #fc2e2a;
 }
 
 .btn {
