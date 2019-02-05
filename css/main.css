@@ -1,11 +1,5 @@
 html {
-  font-family: Montserrat, sans-serif;
-  background-color: white;
-}
-
-h1, h2 {
-  font-family: "Cherry Swash", cursive;
-  color: #fc2e2a;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -13,53 +7,36 @@ a {
   text-decoration: none;
 }
 
-.logo a {
-  font-family: "Cherry Swash", cursive;
-  color: #fc2e2a;
-}
-
-.img-flex {
-  max-width: 2500px;
-  min-width: 220px;
-  padding: 0;
+.box-shadow {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .25);
 }
 
 .embed-4by2 {
   padding-top: 56%;
 }
 
-.btn {
+footer {
   color: white;
-  background-color: #052c35;
-  max-width: 35em;
-  border: 3px solid #0f5f72;
-  border-radius: 100px;
+  background-color: #042C35;
 }
 
-.btn:hover {
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #042C35;
+}
+
+header {
   color: white;
-  background-color: #fc2e2a;
-  max-width: 35em;
-  border: 3px solid #fc2e2a;
-  border-radius: 100px;
-}
-
-u {
-  color: #fc2e2a;
-}
-
-.footer {
-  color: white;
-  background-color: #052c35;
-}
-
-p {
-  color: #052c35;
+  background-color: #042C35;
 }
 
 .hover-box-caption {
   transition: all .1s linear;
   color: white;
+}
+
+.hover-box:focus {
+  z-index: 10;
 }
 
 .hover-box:hover .hover-box-caption,
@@ -71,19 +48,38 @@ p {
   width: 100%;
 }
 
-.hover-box-img {
-  transition: all .1s linear;
-}
-
 .hover-box:hover .hover-box-img,
 .hover-box:focus .hover-box-img {
   filter: brightness(40%);
 }
 
-.hover-box:focus {
-  z-index: 10;
+.hover-box-img {
+  transition: all .1s linear;
 }
 
-.box-shadow {
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .25);
+hr {
+  display: block;
+  margin-left: 3em;
+  margin-right: 3em;
+  border-width: 2px;
+  border-color: #939598;
+}
+
+.img-flex {
+  max-width: 2500px;
+  min-width: 220px;
+  padding: 0;
+}
+
+.logo a {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+u {
+  color: #042C35;
 }

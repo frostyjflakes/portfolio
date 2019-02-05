@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} · {% endif %} Sommerfeldesigns · Motion graphics designer and illustrator · Ottawa, Canada</title>
+  <title>{% if page.title %}{{ page.title }} · {% endif %} Sommerfeldesigns · Branding, motion graphics designer and illustrator · Ottawa, Canada</title>
   <meta name="description" content="Sommerfeldesigns: a motion graphics designer and illustrator based in Ottawa.">
   <meta name="viewpoint" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
@@ -10,20 +10,15 @@
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400" rel="stylesheet">
 </head>
 <body>
 
-  <header class="pad-t">
+  <header class="pad-b pad-t">
     <nav>
-      <ol class="list-group-inline">
-        <li>
-          <a href="{{site.baseurl}}/">
-            <li class="gutter-1-2 left logo tera"><a href="{{site.baseurl}}/">Sommerfeldesigns</a></li>
-          </a>
-        </li>
-      </ol>
+      <a class="gutter" href="{{site.baseurl}}/">
+        <img class="icon i-64" src="{{site.baseurl}}/images/icons/icons-logo.svg" alt="The Sommerfeldesigns logo">
+      </a>
     </nav>
   </header>
 
@@ -31,22 +26,20 @@
     {{content}}
   </main>
 
-  <section class="text-center">
-    <a href="mailto:jennifer@sommerfeldesigns.ca">
-      <img class="icon i-64" src="{{site.baseurl}}/images/icons/icons-gmail.svg" alt="The Gmail icon">
+  <section class="pad-b-1-8 text-center">
+    <a class="gutter-1-2" href="mailto:jennifer@sommerfeldesigns.ca">
+      <img class="icon i-32" src="{{site.baseurl}}/images/icons/icons-mail.svg" alt="The email icon">
     </a>
-    <a href="https://www.linkedin.com/in/jennifer-sommerfeld-b32564130/?trk=public-profile-join-page">
-      <img class="icon i-64" src="{{site.baseurl}}/images/icons/icons-linkedin.svg" alt="The LinkedIn icon">
+    <a href="https://www.linkedin.com/in/jennifer-sommerfeld-b32564130">
+      <img class="icon i-32" src="{{site.baseurl}}/images/icons/icons-linkedin.svg" alt="The LinkedIn icon">
     </a>
-    <a href="https://vimeo.com/user71391332">
-      <img class="icon i-64" src="{{site.baseurl}}/images/icons/icons-vimeo.svg" alt="The Vimeo icon">
+    <a class="gutter-1-4" href="https://vimeo.com/user71391332">
+      <img class="icon i-32" src="{{site.baseurl}}/images/icons/icons-vimeo.svg" alt="The Vimeo icon">
     </a>
   </section>
 
-  <footer>
-    <div class="footer pad-b pad-t text-center">
-      <small>© Sommerfeldesigns</small>
-    </div>
+  <footer class="pad-b pad-t text-center">
+    <small>© Sommerfeldesigns</small>
   </footer>
 
 </body>
