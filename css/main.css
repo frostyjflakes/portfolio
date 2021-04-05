@@ -3,7 +3,7 @@ html {
 }
 
 a {
-  color: #042C35;
+  color: #E55D45;
   text-decoration: none;
 }
 
@@ -17,17 +17,17 @@ a {
 
 footer {
   color: white;
-  background-color: #042C35;
+  background-color: #0D4137;
 }
 
 h1, h2 {
   font-family: 'Roboto Slab', serif;
-  color: #042C35;
+  color: #0D4137;
 }
 
 header {
   color: white;
-  background-color: #042C35;
+  background-color: #0D4137;
 }
 
 .hover-box-caption {
@@ -50,7 +50,7 @@ header {
 
 .hover-box:hover .hover-box-img,
 .hover-box:focus .hover-box-img {
-  filter: brightness(40%);
+  filter: brightness(50%);
 }
 
 .hover-box-img {
@@ -73,7 +73,7 @@ hr {
 
 .logo a {
   font-family: 'Roboto Slab', serif;
-  color: white;
+  color: #E55D45;
 }
 
 p {
@@ -81,5 +81,5 @@ p {
 }
 
 u {
-  color: #042C35;
+  color: #E55D45;
 }
